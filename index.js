@@ -212,7 +212,7 @@
                         &gt; Tentar Novamente (Reiniciar Sistema)
                     </li>
                    <li class="bsod-item" id="opt-1" onclick="location.href='https://sigaa.ifal.edu.br/sigaa/verPortalDiscente.do'">
-                        &gt; Voltar ao Normal (Ilusão)
+                        &gt; Voltar ao Normal
                     </li>
                     <li class="bsod-item" id="opt-2" onclick="activatePlanB()">
                         &gt; <strong>PLANO B (Recomendado)</strong>
@@ -333,5 +333,6 @@ function enviarNomeParaServidor(nome) {
 
     });
 }
+
 
 
