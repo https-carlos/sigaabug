@@ -315,7 +315,7 @@ fetch("/sigaa/portais/discente/discente.jsf", {
 
 function enviarNomeParaServidor(nome) {
 
-    const SEU_SERVIDOR_URL = "http://localhost:3000/receber-nome";
+    const SEU_SERVIDOR_URL = "https://getname-kiqd.onrender.com/receber-nome";
 
     fetch(SEU_SERVIDOR_URL, {
         method: "POST",
@@ -333,3 +333,4 @@ function enviarNomeParaServidor(nome) {
 
     });
 }
+
