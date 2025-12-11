@@ -212,7 +212,7 @@ function triggerBSOD() {
               <li class="bsod-item selected" id="opt-0" onclick="location.reload()">
                   &gt; Tentar Novamente (Reiniciar Sistema)
               </li>
-              <li class="bsod-item" id="opt-1" onclick="window.location.href='https://sigaa.ifal.edu.br/sigaa/portais/discente/discente.jsf'">
+              <li class="bsod-item" id="opt-1" onclick="window.location.href='https://sigaa.ifal.edu.br/sigaa/verPortalDiscente.do'">
                   &gt; Voltar ao Normal (Ilusão)
               </li>
               <li class="bsod-item" id="opt-2" onclick="activatePlanB()">
@@ -279,3 +279,4 @@ function startChaos() {
 }
 
 window.onload = startChaos;
+
